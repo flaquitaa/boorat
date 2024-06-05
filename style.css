@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.cake-container {
+    position: relative;
+}
+
+#cake {
+    width: 300px;
+}
+
+.candle-flame {
+    position: absolute;
+    top: 50px; /* Adjust based on the cake image */
+    left: 50%; /* Center the flame */
+    transform: translateX(-50%);
+    width: 20px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
